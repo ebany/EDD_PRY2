@@ -1,0 +1,20 @@
+Digraph g{
+"nodo4920-1250aldo" [shape=record,label="{4920-1250|aldo\lperez\l12\lmacho\l}"];
+"nodo5520-1250aldo" [shape=record,label="{5520-1250|aldo\lperez\l12\lmacho\l}"];
+"nodo5020-1250jorge" [shape=record,label="{5020-1250|jorge\lLuis\l12\lmacho\l}"];
+"nodo5020-1250jorge" -> "nodo4920-1250aldo"[color=blue];
+"nodo5020-1250jorge" -> "nodo5520-1250aldo"[color=red];
+"nodo6020-1250aldo" [shape=record,label="{6020-1250|aldo\lperez\l12\lmacho\l}"];
+"nodo7120-1250aldo" [shape=record,label="{7120-1250|aldo\lperez\l12\lmacho\l}"];
+"nodo7120-1250aldo" -> "nodo6020-1250aldo"[color=blue];
+"nodo7520-1250ebany" [shape=record,label="{7520-1250|ebany\llarios\l19\lmacho\l}"];
+"nodo8120-1250aldo" [shape=record,label="{8120-1250|aldo\lperez\l12\lmacho\l}"];
+"nodo8120-1250aldo" -> "nodo7520-1250ebany"[color=blue];
+"nodo7320-1250aldo" [shape=record,label="{7320-1250|aldo\lperez\l12\lmacho\l}"];
+"nodo7320-1250aldo" -> "nodo7120-1250aldo"[color=blue];
+"nodo7320-1250aldo" -> "nodo8120-1250aldo"[color=red];
+"nodo5920-1250aldo" [shape=record,label="{5920-1250|aldo\lperez\l12\lmacho\l}"];
+"nodo5920-1250aldo" -> "nodo5020-1250jorge"[color=blue];
+"nodo5920-1250aldo" -> "nodo7320-1250aldo"[color=red];
+
+}
